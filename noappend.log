@@ -1,0 +1,100 @@
+01:34:57:782	18c	args: -dbg 1 -logfile noappend.log -r 1 
+01:34:57:798	18c	
+01:34:57:798	18c	êIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIØ
+01:34:57:813	18c	ß            Claymore's ZCash AMD GPU Miner v9.1 Beta            ß
+01:34:57:813	18c	EIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII¨
+01:34:57:829	18c	
+01:34:58:048	18c	ZEC: 2 pools are specified
+01:34:58:048	18c	Main ZCash pool is us1-zcash.flypool.org:3333
+01:35:03:125	18c	OpenCL platform: AMD Accelerated Parallel Processing
+01:35:03:281	18c	OpenCL initializing...
+
+01:35:03:281	18c	AMD Cards available: 7 
+01:35:03:281	18c	GPU #0: Tahiti, 3072 MB available, 32 compute units
+01:35:03:297	18c	GPU #0 recognized as Radeon 280X/380X
+01:35:03:297	18c	GPU #1: Tahiti, 3072 MB available, 32 compute units
+01:35:03:297	18c	GPU #1 recognized as Radeon 280X/380X
+01:35:03:312	18c	GPU #2: Tahiti, 3072 MB available, 32 compute units
+01:35:03:312	18c	GPU #2 recognized as Radeon 280X/380X
+01:35:03:312	18c	GPU #3: Tahiti, 3072 MB available, 32 compute units
+01:35:03:328	18c	GPU #3 recognized as Radeon 280X/380X
+01:35:03:328	18c	GPU #4: Tahiti, 3072 MB available, 32 compute units
+01:35:03:328	18c	GPU #4 recognized as Radeon 280X/380X
+01:35:03:344	18c	GPU #5: Tahiti, 3072 MB available, 32 compute units
+01:35:03:344	18c	GPU #5 recognized as Radeon 280X/380X
+01:35:03:344	18c	GPU #6: Tahiti, 3072 MB available, 32 compute units
+01:35:03:344	18c	GPU #6 recognized as Radeon 280X/380X
+01:35:03:359	18c	POOL version
+01:35:03:359	18c	b317 
+01:35:03:375	18c	Platform: Windows
+01:35:03:391	18c	start building OpenCL program for GPU 0...
+01:35:03:391	18c	done
+01:35:03:516	18c	Frontend phase failed compilation.
+Error: Compilation from LLVMIR binary to IL text failed!
+01:35:03:516	18c	16x binary failed, try 15x
+01:35:03:532	18c	start building OpenCL program for GPU 0...
+01:35:04:974	18c	done
+01:35:05:084	18c	start building OpenCL program for GPU 1...
+01:35:05:084	18c	done
+01:35:05:207	18c	Frontend phase failed compilation.
+Error: Compilation from LLVMIR binary to IL text failed!
+01:35:05:207	18c	16x binary failed, try 15x
+01:35:05:223	18c	start building OpenCL program for GPU 1...
+01:35:06:661	18c	done
+01:35:06:786	18c	start building OpenCL program for GPU 2...
+01:35:06:786	18c	done
+01:35:06:911	18c	Frontend phase failed compilation.
+Error: Compilation from LLVMIR binary to IL text failed!
+01:35:06:911	18c	16x binary failed, try 15x
+01:35:06:926	18c	start building OpenCL program for GPU 2...
+01:35:08:348	18c	done
+04:13:24:194	18c	watchdog - thread 1, hb time 32
+04:13:24:194	18c	watchdog - thread 2, hb time 157
+04:13:24:209	18c	watchdog - thread 3, hb time 94
+04:13:24:209	18c	watchdog - thread 4, hb time 172
+04:13:24:209	18c	watchdog - thread 5, hb time 63
+04:13:24:225	18c	watchdog - thread 6, hb time 0
+04:13:24:225	18c	watchdog - thread 7, hb time 110
+04:13:24:225	18c	watchdog - thread 8, hb time 16
+04:13:24:225	18c	watchdog - thread 9, hb time 79
+04:13:24:241	18c	watchdog - thread 10, hb time -31
+04:13:24:241	18c	watchdog - thread 11, hb time 141
+04:13:24:241	18c	watchdog - thread 12, hb time 61625
+04:13:24:241	18c	WATCHDOG: GPU 3 hangs in OpenCL call, exit
+04:13:24:256	18c	watchdog - thread 13, hb time 61797
+04:13:24:256	18c	WATCHDOG: GPU 4 hangs in OpenCL call, exit
+04:13:24:256	18c	watchdog - thread 14, hb time 61688
+04:13:24:272	708	got 23 bytes
+04:13:24:272	708	buf: {"id":4,"result":true}
+
+04:13:24:272	708	parse packet: 22
+04:13:24:272	708	ZEC: Share accepted (94 ms)!
+
+04:13:24:287	708	new buf size: 0
+04:13:24:287	18c	WATCHDOG: GPU 5 hangs in OpenCL call, exit
+04:13:24:287	18c	watchdog - thread 15, hb time 61750
+04:13:24:303	18c	WATCHDOG: GPU 3 hangs in OpenCL call, exit
+04:13:24:303	18c	watchdog - thread 16, hb time 47
+04:13:24:303	18c	watchdog - thread 17, hb time -78
+04:13:24:319	18c	watchdog - thread 18, hb time 110
+04:13:24:319	18c	watchdog - thread 19, hb time -15
+04:13:24:319	18c	watchdog - thread 20, hb time 94
+04:13:24:319	18c	watchdog - thread 21, hb time -15
+04:13:24:334	18c	watchdog - thread 22, hb time 32
+04:13:24:334	18c	watchdog - thread 23, hb time -78
+04:13:24:334	18c	watchdog - thread 24, hb time 47
+04:13:24:350	18c	watchdog - thread 25, hb time 94
+04:13:24:350	18c	watchdog - thread 26, hb time -31
+04:13:24:350	18c	watchdog - thread 27, hb time -125
+04:13:24:350	18c	Rebooting
+04:13:25:412	fd0	ZEC: put share nonce 935
+04:13:25:428	fd0	ZEC round found 1 shares
+04:13:25:444	708	ZEC: 12/21/16-04:13:25 - SHARE FOUND - (GPU 0)
+04:13:25:444	708	send share: {"id": 4, "method": "mining.submit", "params": ["t1TVypvfhX1RysmNq1ZSpDukSt55Rr4UKgC.a204","96c81d97088e149b4f2b","1b565a58","350900000000000000000000000000000000000000000000000000","fd400500335f1c955
+04:13:25:538	708	got 23 bytes
+04:13:25:538	708	buf: {"id":4,"result":true}
+
+04:13:25:538	708	parse packet: 22
+04:13:25:553	708	ZEC: Share accepted (93 ms)!
+
+04:13:25:553	708	new buf size: 0
