@@ -13,15 +13,16 @@ if sys.platform == 'win32':
   #log_loc = ''
 else:
   log_loc = '/share/log_reboot/'
+
 group = 'a'
+pattern = "WATCHDOG: GPU (.*) hangs in OpenCL call, exit"
 
 def get_myip():
   s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
   s.connect(('8.8.8.8', 0))
   return s.getsockname()[0]
 
-def get_failed_gpus(log_file_name):
-  pattern = "WATCHDOG: GPU (.*) hangs in OpenCL call, exit"
+def get_failed_gpus(log_file_name, pattern):
   log = open(log_file_name,'r').read()
   result = re.findall(pattern, log)
   return list(set(result))
