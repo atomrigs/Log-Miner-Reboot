@@ -10,12 +10,14 @@ log_file_name = 'noappend.log'
 now = str(datetime.now())
 if sys.platform == 'win32':
   log_loc = 'Q:/log_reboot/'
+  # make sure you set up a shared network drive.
   #log_loc = ''
 else:
   log_loc = '/share/log_reboot/'
 
 group = 'a'
 pattern = "WATCHDOG: GPU (.*) hangs in OpenCL call, exit"
+# you may place a different error message pattern depending on different miners. The above one is for all claymore miners.
 
 def get_myip():
   s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
